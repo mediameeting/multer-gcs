@@ -37,9 +37,7 @@ const storage = multerGCS({
   // optional (default=false)
   isPublic: true,
   // optional (default=false)
-  isPrivate: true,
-  // ignored if isPublic - optional if isPrivate
-  encryptionKey: 'emfbjqùorjbmoQNÙBLJQÙEFBO'
+  isPrivate: true
 })
 
 const upload = multer({
