@@ -1,0 +1,63 @@
+{
+  "name": "@mediam/multer-gcs",
+  "private": false,
+  "version": "1.1.1",
+  "description": "Multer storage engine to google cloud storage",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "standard": "standard",
+    "test": "mocha --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mediameeting/multer-gcs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mediameeting/multer-gcs/issues"
+  },
+  "homepage": "https://github.com/mediameeting/multer-gcs#readme",
+  "keywords": [
+    "multer",
+    "storage",
+    "gcs",
+    "google"
+  ],
+  "author": "Mediameeting SAS",
+  "contributors": [
+    {
+      "name": "Paul Rad",
+      "email": "p.rad@mediameeting.fr"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 7.10.0"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.16.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-interface": "^2.0.3",
+    "eslint": "^4.19.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "express": "^4.16.3",
+    "mocha": "^5.0.4",
+    "multer": "^1.3.0",
+    "sinon": "^4.4.6",
+    "sinon-chai": "^3.0.0",
+    "standard": "^11.0.1",
+    "supertest": "^3.0.0"
+  },
+  "peerDependencies": {
+    "multer": "^1.3.0"
+  },
+  "_resolved": "https://registry.npmjs.org/@mediam/multer-gcs/-/multer-gcs-1.1.1.tgz",
+  "_integrity": "sha512-/KbbX+fXTRhrah8lDd2dKwo5Df14XPF1W9V7I0i29h55ijkuneHaA7Fui1ArnzAboG1wVXRiK4W2vODpfl29gw==",
+  "_from": "@mediam/multer-gcs@1.1.1"
+}
